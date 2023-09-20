@@ -4,4 +4,14 @@ This is a simple watering system for gardens using as stated above, a NodeMCU, E
 The initial idea was tu use one ESP32 and a capacitive soil moisture sensor to get data abaout the soil and control three separate 5v relays that control three 24vAc water valves.
 Due to the dificulty to wire the moisture sensor from the ESP32 to the soil I opted to a BLE Soil sensor like the [Xiaomi MiFlora](https://smarthomescene.com/reviews/xiaomi-miflora-plant-sensor-tuya-version-hhccjcy10-review/) and getting data using the Bluetooth Low Energy (BLE) [ESPHome tracker](https://esphome.io/components/bluetooth_proxy.html).
 
+# Parts Used
 
+- 1 
+
+# wiring diagrams
+
+here will be the wiring diagrams
+
+# code
+
+here will be the code
