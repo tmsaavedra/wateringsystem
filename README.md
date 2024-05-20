@@ -102,29 +102,31 @@ switch:
     name: "Pipe1"
     pin: GPIO15
     id: relay1
-    icon: "mdi:valve"
+    icon: "mdi:gate"
     restore_mode: ALWAYS_OFF
-    #
-     # - delay: 1min
-      #- switch.turn_off: relay1
+    on_turn_on:
+      - delay: 30s
+      - switch.turn_off: relay1
+
   - platform: gpio
     name: "Pipe2"
     pin: GPIO2
     id: relay2
-    icon: "mdi:valve"
+    icon: "mdi:gate"
     restore_mode: ALWAYS_OFF
-    #on_turn_on:
-     # - delay: 500ms
-      #- switch.turn_off: relay2
+    on_turn_on:
+      - delay: 30s
+      - switch.turn_off: relay2
+
   - platform: gpio
     name: "Pipe3"
     pin: GPIO4
     id: relay3
-    icon: "mdi:valve"
+    icon: "mdi:gate"
     restore_mode: ALWAYS_OFF
-    #on_turn_on:
-     # - delay: 500ms
-      #- switch.turn_off: relay3   
+    on_turn_on:
+      - delay: 30s
+      - switch.turn_off: relay3   
 
      
 binary_sensor:
