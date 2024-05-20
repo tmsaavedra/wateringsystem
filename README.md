@@ -6,6 +6,8 @@ Due to the dificulty to wire the moisture sensor from the ESP32 to the soil I op
 
 Later decided to add a BME280 Sensor, it reads humidity, temperature and atmosferic pressure and a rain sensor (Aquaflow DP13) that will help me get more data for the automation and also for another home automations I could use.
 
+The automation is really simple, you can check the "rega_oliveiras.yaml"
+
 # Parts Used 
 (I will put links to the parts but im not associated with any of these brands or shops, its just to show the specific parts used)
 
