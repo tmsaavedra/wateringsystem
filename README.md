@@ -143,5 +143,15 @@ binary_sensor:
     filters:
       - delayed_on: 10ms
 ```
+# Final Result:
+- Board with the esp32
+![alt text](https://github.com/tmsaavedra/wateringsystem/blob/main/IMG_2018.JPG)
+
+- 3 water valves and the esp32
+![alt text](https://github.com/tmsaavedra/wateringsystem/blob/main/IMG_2019.JPG)
+
+- Rain sensor and the BME280 inside the 3d printed closure.
+![alt text](https://github.com/tmsaavedra/wateringsystem/blob/main/IMG_2020.JPG)
+ 
 # Next Steps:
 - Add rain detector [something like this](https://github.com/hugokernel/esphome-rain-detector) since its more precise when it is raining or not. The actual one keeps "on" for rain until the inner parts dry, its good to simulate wet earth.
