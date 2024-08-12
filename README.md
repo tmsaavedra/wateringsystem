@@ -26,7 +26,7 @@ Here is the wiring diagram for the setup:
 
 ![alt text](https://github.com/tmsaavedra/wateringsystem/blob/main/wiring.png)
 
-# code
+# Code
 There are some parts that you should adapt to your setup:
 - Board type
 - WIFI names
@@ -143,3 +143,5 @@ binary_sensor:
     filters:
       - delayed_on: 10ms
 ```
+# Next Steps:
+- Add rain detector [something like this](https://github.com/hugokernel/esphome-rain-detector) since its more precise when it is raining or not. The actual one keeps "on" for rain until the inner parts dry, its good to simulate wet earth.
